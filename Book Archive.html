@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Archive</title>
+    <link rel="stylesheet" type="text/css" href="./StyleSheet1.css" />
+    
+</head>
+<body>
+    <center>
+        <h1>Book Archive</h1>
+
+
+
+        <h2>Add a Book</h2>
+        <form>
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title"><br>
+            <label for="author">Author:</label><br>
+            <input type="text" id="author" name="author"><br>
+            <label for="year">Year:</label><br>
+            <input type="text" id="year" name="year"><br>
+            <input type="button" value="Add Book" onclick="addBook()">
+        </form>
+
+        <h2>Book List</h2>
+        <table id="book-list"></table>
+
+        <script src="Script1.js"></script>
+    </center>
+</body>
+
+</html>

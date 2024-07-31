@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Usertbl]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	username VARCHAR(255) NOT NULL,
+password VARCHAR(255) NOT NULL,
+);
+
